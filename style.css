@@ -1,0 +1,137 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://as1.ftcdn.net/jpg/01/23/71/74/500_F_123717478_dyQm78FHgi32lrcgw0LtzMOFQQxMzdtS.jpg);
+  }
+
+  #title{
+    
+    margin: auto;
+    width: 50%;
+  }
+
+  h1{
+      text-align: center;
+      padding: 2%;
+      border-radius: 75px; 
+      font-family: 'Permanent Marker', cursive;
+      backdrop-filter: blur(20px);
+      color: darkgrey;
+  }
+  
+  /*--Outer Container--*/
+  #container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+  }
+  
+  /*--Main Calculator Container--*/
+  #calculator{
+    width: 350px;
+    height:520px;
+    background-color: darkgreen;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/SsBlBVu.jpg);
+    margin: 0 auto;
+    top:20px;
+    position: center;
+    border-radius: 5px;
+    border-style: outset;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  /*--Keyboard Items--*/
+  
+  #result{
+    height: 120px;
+  }
+  
+  #history{
+    position: relative;
+    top:0px;
+    text-align: right;
+    height: 5px;
+    margin:20px 20px;
+    padding:20px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 0px;
+    color: black;
+    background-color:whitesmoke;
+    border-style: inset;
+  }
+  
+  #output{
+    text-align: right;
+    height: 50px;
+    margin: 10px 20px;
+    font-size: 30px;
+    background-color: rgb(187, 170, 147);
+    border-radius: 2px;
+    border-style:inset;
+    line-height: 0px;
+    
+  
+  
+  }
+  
+  #keyboard{
+    height: 400px;
+  }
+  
+  .operator, .number, .empty{
+    width: 53px;
+    height: 47px;
+    margin: 15px;
+    float: right;
+    border-radius: 50%;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    border-style: outset;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  
+  }
+  
+  .number, .empty{
+    background-color: lightgreen;
+  }
+  
+  .number, .operator{
+    cursor: pointer;
+  }
+  .operator:active, .number:active{
+    font-size: 10px;
+  }
+  
+  .operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+  }
+  
+  button:nth-child(4){
+    font-size: 20px;
+    background-color:chocolate;
+  
+  }
+  
+  button:nth-child(8){
+    font-size: 20px;
+    background-color:coral;
+  
+  }
+  button:nth-child(12){
+    font-size: 20px;
+    background-color: orange;
+  
+  }
+  button:nth-child(16){
+    font-size: 20px;
+    background-color: orangered;
+  
+  }
+  button:nth-child(20){
+    font-size: 20px;
+    background-color:rgb(0, 255, 64);
+  
+  }
+  
